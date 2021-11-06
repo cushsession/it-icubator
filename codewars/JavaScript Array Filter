@@ -1,0 +1,11 @@
+function getEvenNumbers(numbersArray){
+  let arr = [];
+  for (var i = 0; i < numbersArray.length; i++)
+{
+  if (numbersArray[i] % 2 == 0){
+  arr.push(numbersArray[i]);
+  }
+  }
+    return arr;
+  
+}
