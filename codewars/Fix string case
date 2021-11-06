@@ -1,0 +1,15 @@
+ution:
+function solve(s){
+  let lowNum = 0;
+  let uppNum = 0;
+  
+    for(let i = 0; i <= s.length-1; i += 1){
+      
+      if(s[i] === s[i].toLowerCase()) {
+        lowNum += 1;
+      } else {
+        uppNum += 1;
+      }
+   }
+  
+  return lowNum >= uppNum ? s.toLowerCase() : s.toUpperCase();
