@@ -1,0 +1,7 @@
+var isSquare = function(n) {
+  for (var i = 0;; i++) {
+    var product = i * i;
+    if (product === n) return true;
+    else if (product > n) return false;
+  }
+}
