@@ -1,0 +1,4 @@
+function getAge(inputString){
+var age =  parseInt(inputString.match(/\d+/));
+  return age;
+}
