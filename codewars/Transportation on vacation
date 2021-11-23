@@ -1,0 +1,10 @@
+function rentalCarCost(d) {
+ let arend = 40;
+ let totalPrice = arend * d;
+  if (d >= 7) {
+    totalPrice -= 50;
+  } else if (d >= 3) {
+    totalPrice -= 20;
+     }
+  return totalPrice;
+}
