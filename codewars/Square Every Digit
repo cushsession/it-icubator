@@ -1,0 +1,11 @@
+function squareDigits(num){
+  let bin = num.toString().split('')
+  let result = [];
+  for (var i = 0; i < bin.length; i++) {
+    result.push(parseInt(bin[i] ** 2));
+     }
+     console.log(bin)
+     console.log(typeof(result))
+  let m = result.join('');
+  return Number(m)
+}
