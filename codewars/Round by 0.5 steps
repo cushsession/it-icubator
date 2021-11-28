@@ -1,0 +1,4 @@
+function solution(n){
+    var value = (n * 2).toFixed() / 2;
+    return value;
+}
